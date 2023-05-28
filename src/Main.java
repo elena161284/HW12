@@ -8,9 +8,10 @@ public class Main {
         System.out.println("fmd.name= " + fmd.getName());
         System.out.println("fmd.surname= " + fmd.getSurName());
 
-        Book fmd1 = new Book("идиот",1868);
+        Book fmd1 = new Book("идиот",1869);
         System.out.println("fmd1.title= " + fmd1.getTitle());
         System.out.println("fmd1.year= " + fmd1.getYear());
-
+        fmd1.setYear(1868);
+        System.out.println("fmd1.getYear()= " + fmd1.getYear());
     }
 }
