@@ -1,9 +1,8 @@
 package HW12;
 
-public class Author {
+public class Author{
     private final String name;
     private final String surName;
-
     public Author (String name, String surName) {
         this.name = name;
         this.surName = surName;
@@ -11,6 +10,3 @@ public class Author {
     public String getName() {return this.name;}
     public String getSurName() {return this.surName;}
 }
-
-
-
